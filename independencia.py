@@ -10,7 +10,7 @@ class Independencia(QWidget):
     def __init__(self):
         QWidget.__init__(self)
 
-        titulo = "¡¡¡Viva México Ca...!!!"
+        titulo = "¡Viva México!"
         imagen = 'mex.png'
 
         self.resize(410, 260)
