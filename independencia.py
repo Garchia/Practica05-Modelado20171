@@ -22,7 +22,7 @@ class Independencia(QWidget):
     # Crea el botón que se usa para calcular el tiempo
     # que resta para el siguiente Grito de la Independencia
     def boton(self):
-        self.button = QPushButton('Días Para el Siguiente Grito', self)
+        self.button = QPushButton('Aprietame', self)
         self.button.setFixedWidth(260)
         self.button.move(72, 140)
         self.button.clicked.connect(self.click)
